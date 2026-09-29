@@ -1,6 +1,6 @@
 """토스 1분봉 리플레이 서버 — 실제로 받아둔 1분봉(JSON)을 요청마다 1분씩 앞으로 돌려준다.
 장이 닫힌 뒤 '그날 실제 시세'로 jev trade 를 다시 녹화할 때 쓴다. 주문은 받지 않는다(모의 전용).
-  python3 tests/replay_toss.py <candles.json> <port> [시작 HH:MM]
+  python3 examples/replay_toss.py <candles.json> <port> [시작 HH:MM]   (파일의 마지막 날, 그 시각부터)
 """
 import json, sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
