@@ -1,0 +1,20 @@
+{
+  "name": "jev",
+  "interface": {
+    "displayName": "Jev"
+  },
+  "plugins": [
+    {
+      "name": "jev",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

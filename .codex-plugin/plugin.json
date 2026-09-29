@@ -1,0 +1,10 @@
+{
+  "name": "jev",
+  "version": "0.1.0",
+  "description": "Jev (TypeSafe) for agents: yes/no, category or score with a probability in ~0.5 s. Plus a Toss Securities paper-trading demo.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Jev",
+    "shortDescription": "Fast yes/no, category and score decisions with Jev"
+  }
+}

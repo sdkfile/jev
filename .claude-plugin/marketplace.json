@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jev",
+  "description": "Jev (TypeSafe) for agents: yes/no, category or score with a probability in ~0.5 s. Plus a Toss Securities paper-trading demo.",
+  "owner": {
+    "name": "Nullpointer Studio",
+    "url": "https://github.com/sdkfile"
+  },
+  "plugins": [
+    {
+      "name": "jev",
+      "description": "Jev (TypeSafe) for agents: yes/no, category or score with a probability in ~0.5 s. Plus a Toss Securities paper-trading demo.",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/sdkfile/jev"
+    }
+  ]
+}
